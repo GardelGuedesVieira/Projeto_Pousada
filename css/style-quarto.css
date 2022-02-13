@@ -11,14 +11,22 @@ body {
 }
 
 .container {
-    max-width: 1024px;
+  max-width: 1024px;
 }
 
 .topo {
   position: fixed;
   border-bottom: 1px solid rgb(0, 0, 0);
   width: 100%;
-  background-color: #fff;
+  background-color: #11d4b185;
+}
+
+.container a {
+  background-color: #11d4b0b7;
+  padding: 8px;
+  font-weight: 700;
+  border-radius: 15px;
+  color: #fff;
 }
 
 .topo .container {
@@ -39,7 +47,7 @@ body {
 }
 
 .link-logotipo span {
-  color: #6592c9;
+  color: #000000;
 }
 
 .link-topo {
@@ -63,13 +71,89 @@ body {
 
 .tamanho-maximo-container {
   max-width: 1024px;
+  margin: 0 auto;
 }
 
 .quartos-img {
   width: 33%;
-  padding: 2px;
 }
 
 .quartos {
   display: flex;
+  justify-content: space-between;
+}
+
+.secao-container {
+  text-align: center;
+}
+
+.secao-container h3 {
+  margin-top: 70px;
+}
+
+.secao-container h2 {
+  font-size: 30px;
+  margin-top: 70px;
+}
+
+.secao-container p {
+  margin-bottom: 50px;
+}
+
+.quarto-informacoes {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.quarto-informacoes li {
+  width: 25%;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.rodape {
+  background-color: #49997d;
+  color: #fff;
+}
+
+.rodape-copyright {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #3b7863;
+  font-weight: 600;
+  width: 100%;
+}
+
+.rodape h4 {
+  font-size: 22px;
+}
+
+.rodape-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.rodape-info {
+  width: 23%;
+  display: flex;
+  align-items: center;
+}
+
+.rodape-link {
+  margin-right: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.rodape-icone {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.rodape-info a {
+  text-decoration: none;
+  color: #fff;
 }

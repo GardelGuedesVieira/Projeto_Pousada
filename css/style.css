@@ -18,7 +18,15 @@ body {
   position: fixed;
   border-bottom: 1px solid black;
   width: 100%;
-  background-color: #fff;
+  background-color: #11d4b185;
+}
+
+.container a {
+  background-color: #11d4b0b7;
+  padding: 8px;
+  font-weight: 700;
+  border-radius: 15px;
+  color: #fff;
 }
 
 .topo .container {
@@ -39,7 +47,7 @@ body {
 }
 
 .link-logotipo span {
-  color: #6592c9;
+  color: #000000;
 }
 
 .link-topo {
@@ -90,6 +98,7 @@ body {
 .quarto a {
   text-decoration: none;
   color: #333;
+  font-weight: bold;
 }
 
 .quarto a p {
