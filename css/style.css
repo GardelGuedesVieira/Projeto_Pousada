@@ -16,9 +16,8 @@ body {
 
 .topo {
   position: fixed;
-  border-bottom: 1px solid black;
   width: 100%;
-  background-color: #11d4b185;
+  background-color: #11d4b0;
 }
 
 .container a {
